@@ -1,41 +1,49 @@
-/* main.css */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 20px;
-  }
+    background-color: #121212;
+    color: #ba9ffb;
+}
 
-  form {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+.container-centralizador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
+.container-cronometro-botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-  input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-  }
+.input-cronometro{
+    color: #ba9ffb;
+    background-color: #121212;
+}
 
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
+.texto-cronometro{
+    font-size: 10rem;
+}
+
+.button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #121212;
+    background-color: #ba9ffb;
+    border: 1px solid #ba9ffb;
+    border-radius: 5px;
     cursor: pointer;
-  }
+}
 
-  button:hover {
-    background-color: #0056b3;
-  }
+.invisivel{
+    display: none;
+}
