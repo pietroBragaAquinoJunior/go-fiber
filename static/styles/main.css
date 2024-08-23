@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
-    color: #ba9ffb;
+    color: #2351b3;
 }
 
 .container-centralizador{
@@ -24,7 +24,7 @@ body {
 }
 
 .input-cronometro{
-    color: #ba9ffb;
+    color: #2351b3;
     background-color: #121212;
 }
 
@@ -38,8 +38,8 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     color: #121212;
-    background-color: #ba9ffb;
-    border: 1px solid #ba9ffb;
+    background-color: #2351b3;
+    border: 1px solid #2351b3;
     border-radius: 5px;
     cursor: pointer;
 }
